@@ -1,0 +1,14 @@
+number_one = int(input("Enter your first number: "))
+operator = input("Enter an operator (+,-,*,/:): ")
+number_two = int(input("Enter your second number: "))
+
+if operator == "+":
+    print(number_one + number_two)
+elif operator == "-":
+    print(number_one - number_two)
+elif operator == "*":
+    print(number_one * number_two)
+elif operator == "/":
+    print(number_one / number_two)
+else:
+    print("operator invalid")
